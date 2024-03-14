@@ -77,8 +77,6 @@
 
 ---
 
-Sure, here's how you can include the build and run commands for the Docker image in your README.md:
-
 ---
 
 ## Building and Running Docker Image
