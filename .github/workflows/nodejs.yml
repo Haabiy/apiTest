@@ -21,8 +21,12 @@ jobs:
       with:
         node-version: '14'
 
+    - name: Change directory to app
+      run: cd app
+
     - name: Install dependencies
       run: npm install
 
     - name: Run tests
       run: npm test
+
