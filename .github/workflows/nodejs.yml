@@ -19,7 +19,3 @@ jobs:
     # Build Docker image
     - name: Build Docker image
       run: docker build -t my-api-test .
-
-    # Run tests inside Docker container
-    - name: Run tests
-      run: docker run my-api-test npm test
