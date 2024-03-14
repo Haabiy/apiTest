@@ -4,7 +4,7 @@
 # OS-specific files
 .DS_Store
 Thumbs.db
-
+__pycache__
 # Environment variables file (if using .env)
 .env
 
