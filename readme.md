@@ -77,8 +77,6 @@
 
 ---
 
----
-
 ## Building and Running Docker Image
 
 ### Building Docker Image
