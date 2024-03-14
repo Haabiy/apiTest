@@ -104,5 +104,3 @@ docker run -p 3000:3000 -d --name apiTest apitest
 This command will start a Docker container named `apiTest` in detached mode (`-d`), exposing port `3000` of the container to port `3000` of your host machine (`-p 3000:3000`). The container will run the API server.
 
 ---
-
-You can include these sections in your README.md file to guide users on how to build and run the Docker image for your API. Adjust the commands as necessary based on your project setup.
