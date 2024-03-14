@@ -1,7 +1,3 @@
-Sure, here's a description of each route that you can put in your GitHub README.md file:
-
----
-
 ## Jokes API Routes
 
 ### GET /random
