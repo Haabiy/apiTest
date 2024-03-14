@@ -45,7 +45,6 @@ app.get('/jokes/:id', (req, res) => {
   }
 });
 
-//-------------------------------------------------------------------------------------------------------------
 // Add your own jokes
 app.post('/jokes', (req, res) => {
   try {
@@ -74,8 +73,6 @@ app.post('/jokes', (req, res) => {
     res.status(500).send('Internal Server Error');
   }
 });
-
-//-------------------------------------------------------------------------------------------------------------
 
 // PUT to update a joke by ID; 
 // Testing in postman ? -> http://localhost:3000/jokes/98
